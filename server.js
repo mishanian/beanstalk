@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.send('Hello from Elastic Beanstalk with ESM!');
+    res.send('Hello from Elastic Beanstalk with ESM!!');
 });
 
 app.listen(port, () => {
