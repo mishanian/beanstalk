@@ -1,0 +1,13 @@
+{
+  "name": "aws-eb-node-app-esm",
+  "version": "1.0.0",
+  "description": "A simple Node.js ESM app for AWS Elastic Beanstalk",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
